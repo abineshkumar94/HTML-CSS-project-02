@@ -22,9 +22,7 @@
 
 .nav-brand {
     position: absolute;
-    width: 215px;
     left: 30px;
-    height: 63px;
     top: 10px;
     font-family:  'Delius Unicase';
     font-style: normal;
@@ -60,9 +58,9 @@
   .home {
     position: absolute;
     width: 102px;
-    height: 33px;
+    height: 36px;
     left: 355px;
-    top: 31px;
+    top: 30px;
   }
 
   .about-us {
@@ -70,7 +68,7 @@
     width: 157px;
     height: 36px;
     left: 467px;
-    top: 31px;
+    top: 30px;
   }
 
   .information {
@@ -78,7 +76,7 @@
     width: 199px;
     height: 36px;
     left: 616px;
-    top: 31px;
+    top: 30px;
   }
 
   .more {
@@ -86,7 +84,7 @@
     width: 199px;
     height: 36px;
     left: 767px;
-    top: 31px;
+    top: 30px;
   }
 
   .md {
@@ -104,7 +102,7 @@
     width: 100px;
     left: 1250px;
     right: 3.07;
-    top: 43.87px;
+    top: 32.87px;
     bottom: 95.88%;
     background: #FFFFFF;
   }
@@ -112,7 +110,8 @@
   .search-container {
     position: fixed;
     left: 965px;
-    top: 43px;
+    top: 32px;
+    z-index: 100;
   }
 
   .search-bar {
@@ -144,6 +143,7 @@
     top: 163px;
     border-radius: 20px;
     overflow: hidden;
+    z-index: 1;
   }
 
   .para {
@@ -158,36 +158,135 @@
     font-size: 20px;
     line-height: 178.7%;
     color: #6F7373;
+    z-index: 1;
   }
 
   /** middle thing **/
 
-  .mc-propertie {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 178.7%;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-  }
 
   .midd1 {
     position: absolute;
-    width: 337px;
-    height: 145.48px;
-    left: 101px;
-    top: 933px;
+    width: 225px;
+    height: 80.48px;
+    left: 125px;
+    top: 550px;
     background: #929DFF;
     box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
     border-radius: 11px;
   }
 
-  .midd1 .contentone {
+  .midd1 .content-one {
     position: absolute;
-    width: 224px;
-    height: 36px;
-    left: 129px;
-    top: 953px;
+    width: 124px;
+    height: 10px;
+    left: 18px;
+    top: 6px;
+    color: #FFFFFF;
+    font-family: 'DN Sans';
+    font-style: normal;
+    font-weight: 545;
+    font-size: 17.2px;
+    line-height: 178.7%;
+    letter-spacing: 0.04em;
   }
+
+  .midd2 {
+    position: absolute;
+    width: 225px;
+    height: 80.48px;
+    left: 415px;
+    top: 550px;
+    background: #734CF2;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+
+  .midd2 .content-two {
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 18px;
+    top: 6px;
+    color: #FFFFFF;
+    font-family: 'DN Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.2px;
+    line-height: 178.7%;
+    letter-spacing: 0.04em;
+  }
+
+
  
+  .midd3 {
+    position: absolute;
+    width: 225px;
+    height: 80.48px;
+    left: 705px;
+    top: 550px;
+    background: #D288FF;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+
+  .midd3 .content-three {
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 18px;
+    top: 6px;
+    color: #FFFFFF;
+    font-family: 'DN Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.2px;
+    line-height: 178.7%;
+    letter-spacing: 0.04em;
+  }
+
+
+  .midd4 {
+    position: absolute;
+    width: 225px;
+    height: 80.48px;
+    left: 995px;
+    top: 550px;
+    background: #000000;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+  }
+
+  .midd4 .content-four {
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 18px;
+    top: 6px;
+    color: #FFFFFF;
+    font-family: 'DN Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.2px;
+    line-height: 178.7%;
+    letter-spacing: 0.04em;
+  }
+
+ .img-group-2 {
+    position: fixed;
+    top: 585px;
+    left: 1130px;
+    z-index: 100;
+
+ } 
+
+ /** next-scroll **/
+
+ .rectangle-9 {
+  position: absolute;
+  width: 1020px;
+  height: 717px;
+  left: 130px;
+  top: 780px;
+  background: #483EFF;
+  border-radius: 21px;
+ }
