@@ -8,6 +8,8 @@
     --nav-colour: #6F6AF7;
 }
 
+
+
 /** nagigation **/
 
 .navigation-container {
@@ -129,7 +131,7 @@
 
   .limg {
     position: relative;
-    left: 130px;
+    left: 118px;
     top: 155px;
     background: url(image.png);
     border-radius: 20px;
@@ -139,8 +141,8 @@
 
   .rimg {
     position: absolute;
-    left: 520px;
-    top: 163px;
+    left: 525px;
+    top: 166px;
     border-radius: 20px;
     overflow: hidden;
     z-index: 1;
@@ -273,8 +275,8 @@
 
  .img-group-2 {
     position: fixed;
-    top: 585px;
-    left: 1130px;
+    top: 568px;
+    left: 1093px;
     z-index: 100;
 
  } 
@@ -282,11 +284,15 @@
  /** next-scroll **/
 
  .rectangle-9 {
-  position: absolute;
-  width: 1020px;
-  height: 717px;
+  position:absolute;
+  width: 1077px;
+  height: 400px;
   left: 130px;
-  top: 780px;
+  top: 840px;
   background: #483EFF;
+  bottom: 20px;
   border-radius: 21px;
- }
+  
+}
+
+
